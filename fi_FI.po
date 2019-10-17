@@ -1,0 +1,1435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.7\n"
+"POT-Creation-Date: 2014-01-11 11:50+0100\n"
+"PO-Revision-Date: 2019-10-17 10:17+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
+"yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
+"yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
+"yourls_nx_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: fi_FI\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: yourls-infos.php:204
+#, php-format
+msgid "Statistics for %s"
+msgstr "Tilastoja %s:stä"
+
+#: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
+#: admin/index.php:93 includes/functions-html.php:209
+#: includes/functions-html.php:221 includes/functions-html.php:464
+#: includes/functions-html.php:626
+msgid "Short URL"
+msgstr "LyhytURL"
+
+#: yourls-infos.php:227
+msgid "Aggregate stats for duplicate short URLs"
+msgstr "Yhdistä tilastot useampaan kertaan esiintyvistä lyhytURL:eista"
+
+#: yourls-infos.php:229 includes/functions-html.php:464
+msgid "Long URL"
+msgstr "Pitkä URL"
+
+#: yourls-infos.php:235 yourls-infos.php:246
+msgid "Traffic statistics"
+msgstr "Liikennöintitilastot"
+
+#: yourls-infos.php:236 yourls-infos.php:432
+msgid "Traffic location"
+msgstr "Liikennöintisijainnit"
+
+#: yourls-infos.php:237 yourls-infos.php:469
+msgid "Traffic sources"
+msgstr "Liikennöintilähteet"
+
+#: yourls-infos.php:239 yourls-infos.php:539 includes/functions-html.php:505
+#: includes/functions-html.php:506
+msgid "Share"
+msgstr "Jaa"
+
+#: yourls-infos.php:254 yourls-infos.php:294
+msgid "Last 24 hours"
+msgstr "Viimeiset 24 tuntia"
+
+#: yourls-infos.php:255 yourls-infos.php:296
+msgid "Last 7 days"
+msgstr "Viimeiset 7 päivää"
+
+#: yourls-infos.php:256 yourls-infos.php:298
+msgid "Last 30 days"
+msgstr "Viimeiset 30 päivää"
+
+#: yourls-infos.php:257 yourls-infos.php:300
+msgid "All time"
+msgstr "Kaikkiaan"
+
+#: yourls-infos.php:309
+#, php-format
+msgid "Number of hits : %s"
+msgstr "Osumia: %s"
+
+#: yourls-infos.php:332
+msgid "Historical click count"
+msgstr "Klikkejä kaikkiaan"
+
+#: yourls-infos.php:338
+#, php-format
+msgid "about 1 day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "noin vrk sitten"
+msgstr[1] "noin %s päivää sitten"
+
+#. //translators: eg Short URL created on March 23rd 1972
+#: yourls-infos.php:341
+#, php-format
+msgid "Short URL created on %s"
+msgstr "LyhytURL luotu %s"
+
+#: yourls-infos.php:356 yourls-infos.php:363
+#, php-format
+msgid "%s per day"
+msgstr "%s päivässä"
+
+#: yourls-infos.php:359
+#, php-format
+msgid "%s per hour"
+msgstr "%s tunnissa"
+
+#: yourls-infos.php:366
+#, php-format
+msgid "%s hit"
+msgid_plural "%s hits"
+msgstr[0] "%s käynti"
+msgstr[1] "%s käyntiä"
+
+#: yourls-infos.php:373
+msgid "Best day"
+msgstr "Paras päivä"
+
+#. //translators: eg. 43 hits on January 1, 1970
+#: yourls-infos.php:380
+#, php-format
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgstr[0] "<strong>%1$s</strong> hitti %2$s"
+msgstr[1] "<strong>%1$s</strong> hittiä %2$s"
+
+#: yourls-infos.php:381 yourls-infos.php:443
+msgid "Click for more details"
+msgstr "Klikkaa lisätietoja"
+
+#: yourls-infos.php:387 yourls-infos.php:390
+#, php-format
+msgid "Year %s"
+msgstr "Vuosi %s"
+
+#: yourls-infos.php:409 yourls-infos.php:447
+#, php-format
+msgid "1 hit"
+msgid_plural "%s hits"
+msgstr[0] "1 käynti"
+msgstr[1] "%s käyntiä"
+
+#: yourls-infos.php:426
+msgid "No traffic yet. Get some clicks first!"
+msgstr "Ei liikennöintiä vielä. Odotellaan vielä!"
+
+#: yourls-infos.php:441
+msgid "Top 5 countries"
+msgstr "Top 5 maat"
+
+#: yourls-infos.php:454
+msgid "Overall traffic"
+msgstr "Liikennettä kaikkiaan"
+
+#: yourls-infos.php:463
+msgid "No country data."
+msgstr "Ei maatietoja."
+
+#: yourls-infos.php:478
+msgid "Referrer shares"
+msgstr "Linkkaaja jakanut"
+
+#: yourls-infos.php:481
+msgid "Others"
+msgstr "Muut"
+
+#: yourls-infos.php:485 yourls-infos.php:518
+msgid "Referrers"
+msgstr "Linkkaajat"
+
+#: yourls-infos.php:492 yourls-infos.php:502
+msgid "(details)"
+msgstr "(lisätietoja)"
+
+#: yourls-infos.php:502
+msgid "Various:"
+msgstr "Useampia:"
+
+#: yourls-infos.php:516
+msgid "Direct vs Referrer Traffic"
+msgstr "Suora vs. linkattu liikenne"
+
+#: yourls-infos.php:518
+msgid "Direct"
+msgstr "Suora"
+
+#: yourls-infos.php:520
+msgid "Direct traffic:"
+msgstr "Suora liikenne:"
+
+#: yourls-infos.php:520 yourls-infos.php:521
+#, php-format
+msgid "<strong>%s</strong> hit"
+msgid_plural "<strong>%s</strong> hits"
+msgstr[0] "<strong>%s</strong> käynti"
+msgstr[1] "<strong>%s</strong> käyntiä"
+
+#: yourls-infos.php:521
+msgid "Referrer traffic:"
+msgstr "Linkitetty liikenne:"
+
+#: yourls-infos.php:530
+msgid "No referrer data."
+msgstr "Ei linkitystietoa."
+
+#: yourls-infos.php:541
+msgid "Short link"
+msgstr "Lyhyt linkki"
+
+#: yourls-infos.php:541 includes/functions-html.php:359
+msgid "Quick Share"
+msgstr "Pikajako"
+
+#: admin/index.php:13 admin/index.php:38 admin/index.php:97
+#: includes/functions-html.php:210 includes/functions-html.php:222
+msgid "URL"
+msgstr "URL"
+
+#: admin/index.php:42 includes/functions-html.php:211
+#: includes/functions-html.php:464
+msgid "Title"
+msgstr "Otsikko"
+
+#: admin/index.php:46 admin/index.php:105
+msgid "IP Address"
+msgstr "IP-osoite"
+
+#: admin/index.php:50
+#, php-format
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgstr "Etsitään <strong>%1$s</strong> / <strong>%2$s</strong>."
+
+#: admin/index.php:101 includes/functions-html.php:223
+#: includes/functions-html.php:628
+msgid "Date"
+msgstr "Päiväys"
+
+#: admin/index.php:109 includes/functions-html.php:225
+#: includes/functions-html.php:630
+msgid "Clicks"
+msgstr "Klikit"
+
+#: admin/index.php:187 admin/index.php:198 admin/index.php:209
+#, php-format
+msgid "Short URL created, but could not redirect to %s !"
+msgstr "LyhytURL luotu, mutta ei voitu ohjata kohteeseen %s !"
+
+#: admin/index.php:219
+msgid "Unknown \"Share\" bookmarklet"
+msgstr "Tuntematon \"Jako\"-kirjanmerkike"
+
+#: admin/index.php:272
+#, php-format
+msgid ""
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
+msgstr ""
+"Näytetään linkit (<strong>%1$s</strong> - <strong class=\"increment\">%2$s</"
+"strong>) / <strong class=\"increment\">%3$s</strong>"
+
+#: admin/index.php:274
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] "laskin yhteensä <strong>1</strong> klikkauksen"
+msgstr[1] "laskin yhteensä <strong>%s</strong> klikkausta"
+
+#: admin/index.php:277
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
+msgstr ""
+"Kaikkiaan linkkejä on tehty <strong class=\"increment\">%1$s</strong> kpl ja "
+"niitä on klikattu yhteensä <strong>%2$s</strong> kertaa!"
+
+#: admin/index.php:337
+msgid "No URL"
+msgstr "Ei URL:ia"
+
+#: admin/install.php:13 admin/install.php:18
+#, php-format
+msgid "%s version is too old. Ask your server admin for an upgrade."
+msgstr "%s versio on liian vanha. Pyydä järjestelmän ylläpitäjää päivittämään."
+
+#: admin/install.php:24
+msgid "YOURLS already installed."
+msgstr "YOURLS on jo asenettu."
+
+#: admin/install.php:35
+msgid "File <tt>.htaccess</tt> successfully created/updated."
+msgstr "Tiedosto <tt>.htaccess</tt> onnisuneesti luotu/päivitetty."
+
+#: admin/install.php:37
+msgid ""
+"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
+"have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
+msgstr ""
+"Ei voitu kirjoittaa tiedostoa <tt>.htaccess</tt> YOURLS juurikansioon. Sinun "
+"on tehtävä se manuaalisesti. Lue <a href=\"http://yourls.org/htaccess"
+"\">kuinka</a>."
+
+#: admin/install.php:50 admin/install.php:71
+msgid "Install YOURLS"
+msgstr "Asenna YOURLS"
+
+#: admin/install.php:74
+msgid "YOURLS Administration Page"
+msgstr "YOURLS hallintasivu"
+
+#: admin/plugins.php:38
+msgid "Unsupported action"
+msgstr "Ei tuettu toiminto"
+
+#: admin/plugins.php:42
+msgid "No plugin specified, or not a valid plugin"
+msgstr "Ei laajennusta ei määritetty tai epäkelpo laajennus"
+
+#: admin/plugins.php:51
+msgid "Plugin has been activated"
+msgstr "Laajennus aktivoitu"
+
+#: admin/plugins.php:53
+msgid "Plugin has been deactivated"
+msgstr "Laajennus on poistettu käytöstä"
+
+#: admin/plugins.php:58 includes/functions-html.php:745
+msgid "Manage Plugins"
+msgstr "Laajennuksien hallinta"
+
+#: admin/plugins.php:63
+msgid "Plugins"
+msgstr "Laajennukset"
+
+#: admin/plugins.php:70
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] "%s laajennus"
+msgstr[1] "%s laajennusta"
+
+#. //translators: "you have '3 plugins' installed and '1' activated"
+#: admin/plugins.php:74
+#, php-format
+msgid ""
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
+msgstr ""
+"Sinulla on <strong>%1$s</strong> asennettua, ja <strong>%2$s</strong> "
+"aktivoitua"
+
+#: admin/plugins.php:79
+msgid "Plugin Name"
+msgstr "Laajennuksen nimi"
+
+#: admin/plugins.php:80
+msgid "Version"
+msgstr "Versio"
+
+#: admin/plugins.php:81
+msgid "Description"
+msgstr "Kuvaus"
+
+#: admin/plugins.php:82
+msgid "Author"
+msgstr "Tekijä"
+
+#: admin/plugins.php:83
+msgid "Action"
+msgstr "Toiminto"
+
+#: admin/plugins.php:118
+msgid "Deactivate"
+msgstr "Poista käytöstä"
+
+#: admin/plugins.php:122
+msgid "Activate"
+msgstr "Aktivoi"
+
+#: admin/plugins.php:133
+#, php-format
+msgid "plugin file location: %s"
+msgstr "laajennuksen tiedostosijainti: %s"
+
+#: admin/plugins.php:150
+msgid "Toggle active/inactive plugins"
+msgstr "Kytke päälle/pois laajennuksia"
+
+#: admin/plugins.php:157
+msgid ""
+"If something goes wrong after you activate a plugin and you cannot use "
+"YOURLS or access this page, simply rename or delete its directory, or rename "
+"the plugin file to something different than <code>plugin.php</code>."
+msgstr ""
+"Jos jotain menee pieleen laajennuksen aktivoinnin jälkeen, etkä voi käyttää "
+"YOURLS:ia tai et pääse tälle sivulle, poista tai muuta kansion nimi, tai "
+"muuta laajennuksen nimi joksikin muuksi kuin <code>plugin.php</code>."
+
+#: admin/plugins.php:159
+msgid "More plugins"
+msgstr "Lisää laajennuksia"
+
+#: admin/plugins.php:161
+msgid ""
+"For more plugins, head to the official <a href=\"http://yourls.org/pluginlist"
+"\">Plugin list</a>."
+msgstr ""
+"Lisää laajennuksia löydät virallisesta <a href=\"http://yourls.org/pluginlist"
+"\">Laajennuksien listasta</a>."
+
+#: admin/tools.php:6
+msgid "Cool YOURLS Tools"
+msgstr "Hyviä YOURLS-työkaluja"
+
+#: admin/tools.php:13
+msgid "Bookmarklets"
+msgstr "Kirjanmerkike"
+
+#: admin/tools.php:15
+msgid ""
+"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
+"and sharing."
+msgstr ""
+"YOURLS:n mukana tulee käteviä  <span>kirjanmerkikkeitä</span> helpompaan "
+"linkkien lyhentämiseen ja jakamiseen."
+
+#: admin/tools.php:17
+msgid "Standard or Instant, Simple or Custom"
+msgstr "Vakio tai välitön, yksinkertainen tai kustomoitu"
+
+#: admin/tools.php:20
+msgid ""
+"The <span>Standard Bookmarklets</span> will take you to a page where you can "
+"easily edit or delete your brand new short URL."
+msgstr ""
+"<span>Vakiomuotoiset kirjanmerkikkeet</span> vievät sinut sivulle, jossa "
+"voit helposti muokata ja poistaa uunituoreet lyhytURL:isi."
+
+#: admin/tools.php:22
+msgid ""
+"The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
+"the page you are viewing."
+msgstr ""
+"<span>Välittömät kirjanmerkikkeet</span> ponnauttavat esiin lyhytURL:isi "
+"ilman, että poistut nykyiseltä sivulta."
+
+#: admin/tools.php:24
+msgid ""
+"The <span>Simple Bookmarklets</span> will generate a short URL with a random "
+"or sequential keyword."
+msgstr ""
+"<span>Yksinkertaiset kirjanmerkikkeet</span> luovat lyhytURL:in "
+"sattumanvaraisella tai sekventiaalisella avainsanalla."
+
+#: admin/tools.php:26
+msgid ""
+"The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
+"keyword first."
+msgstr ""
+"<span>Kustomoidut kirjanmerkikkeet</span> pyytävät sinulta ensin "
+"omavalintaisen avainsanan."
+
+#: admin/tools.php:30
+msgid ""
+"If you want to share a description along with the link you're shortening, "
+"simply <span>select text</span> on the page you're viewing before clicking "
+"on your bookmarklet link"
+msgstr ""
+"Jos haluat jakaa kuvauksen lyhentämäsi linkin mukana, <span>valitse vain "
+"teksti</span> sivulla, jolla olet, ennen kuin klikkaat kirjanmerkikkeen "
+"linkkiä"
+
+#: admin/tools.php:33
+msgid "The Bookmarklets"
+msgstr "Kirjanmerkikkeet"
+
+#: admin/tools.php:35 admin/tools.php:62
+msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
+msgstr ""
+"Napauta ja raahaa linkkejä työkalupalkkiin (tai napauta oikealla näppäimellä "
+"ja tee kirjanmerkki)"
+
+#: admin/tools.php:41
+msgid "Standard (new page)"
+msgstr "Normaali (uusi sivu)"
+
+#: admin/tools.php:42
+msgid "Instant (popup)"
+msgstr "Välitön (ponnahdus)"
+
+#: admin/tools.php:47
+msgid "Simple"
+msgstr "Yksinkertainen"
+
+#: admin/tools.php:48 admin/tools.php:49 admin/tools.php:53 admin/tools.php:54
+#: admin/tools.php:68 admin/tools.php:70 admin/tools.php:72
+msgid "Drag to your toolbar!"
+msgstr "Raahaa työkalupalkkiisi!"
+
+#: admin/tools.php:48
+msgid "Shorten"
+msgstr "Lyhennä"
+
+#: admin/tools.php:49
+msgid "Instant Shorten"
+msgstr "Välitön lyhennys"
+
+#: admin/tools.php:52
+msgid "Custom Keyword"
+msgstr "Omavalintainen avainsana"
+
+#: admin/tools.php:53
+msgid "Custom shorten"
+msgstr "Omavalintainen lyhentäminen"
+
+#: admin/tools.php:54
+msgid "Instant Custom Shorten"
+msgstr "Välitön omavalintainen lyhentäminen"
+
+#: admin/tools.php:59
+msgid "Social Bookmarklets"
+msgstr "SOME kirjanmerkikkeet"
+
+#: admin/tools.php:61
+msgid "Create a short URL and share it on social networks, all in one click!"
+msgstr "Luo lyhytURL ja jaa se sosiaalisessa mediassa, yhdellä klikkauksella!"
+
+#: admin/tools.php:64
+msgid "Shorten and share:"
+msgstr "Lyhennä ja jaa:"
+
+#: admin/tools.php:68
+msgid "YOURLS &amp; Facebook"
+msgstr "YOURLS &amp; Facebook"
+
+#: admin/tools.php:70
+msgid "YOURLS &amp; Twitter"
+msgstr "YOURLS &amp; Twitter"
+
+#: admin/tools.php:72
+msgid "YOURLS &amp; Tumblr"
+msgstr "YOURLS &amp; Tumblr"
+
+#: admin/tools.php:80
+msgid "Prefix-n-Shorten"
+msgstr "Lyhennä etuliitteellä"
+
+#: admin/tools.php:82
+#, php-format
+msgid ""
+"When viewing a page, you can also prefix its full URL: just head to your "
+"browser's address bar, add \"<span>%s</span>\" to the beginning of the "
+"current URL (right before its 'http://' part) and hit enter."
+msgstr ""
+"Voit luoda lyhytURL:n myös lisäämällä etuliitteen selaimen osoitekentässä "
+"sivun alkuperäiseen URL:iin. Lisää vain \"<span>%s</span>\" alkuperäisen URL:"
+"n eteen (juuri ennen 'http://' -osaa) ja paina rivinvaihtoa."
+
+#: admin/tools.php:85
+msgid ""
+"Note: this will probably not work if your web server is running on Windows"
+msgstr ""
+"Huom: tämä ei todennäköisesti toimi jos verkkopalvelimesi pyörii Windows-"
+"alustalla"
+
+#: admin/tools.php:87
+msgid " (which seems to be the case here)"
+msgstr " (niin kuin näyttää olevan tässä tapauksessa)"
+
+#: admin/tools.php:93
+msgid "Secure passwordless API call"
+msgstr "Turvallinen salasanaton API-kutsu"
+
+#: admin/tools.php:96
+msgid ""
+"YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
+"<tt>password</tt> parameters."
+msgstr ""
+"YOURLS mahdollistaa API-kutsut perinteiseen tyyliin, käyttämällä "
+"<tt>käyttäjänimeä</tt> ja <tt>salasanaa</tt> parametreinä."
+
+#: admin/tools.php:98
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also "
+"make API calls without using your login or your password, using a secret "
+"signature token."
+msgstr ""
+"Jos et uskalla lähettää tunnistetietojasi avoimesti, voit myös tehdä API-"
+"kutsun ilman käyttäjätunnusta ja salasanaa, käyttäen salaista allekirjoitus-"
+"valtuutusta (tokenia)."
+
+#: admin/tools.php:102
+#, php-format
+msgid "Your secret signature token: <strong><code>%s</code></strong>"
+msgstr ""
+"Salainen allekirjoitus-valtuutuksesi on: <strong><code>%s</code></strong>"
+
+#: admin/tools.php:103
+msgid "(It's a secret. Keep it secret) "
+msgstr "(Pidä se vain omana tietonasi) "
+
+#: admin/tools.php:106
+msgid ""
+"This signature token can only be used with the API, not with the admin "
+"interface."
+msgstr ""
+"Tätä allekirjoitus-valtuutusta voidaan käyttää ainoastaan API:n yhteydessä, "
+"ei hallintaliittymän yhteydessä."
+
+#: admin/tools.php:109
+msgid "Usage of the signature token"
+msgstr "Näin käytät allekirjoitus-valtuutusta"
+
+#: admin/tools.php:110
+msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
+msgstr ""
+"Käytä yksinkertaisesti parametriä <tt>signature</tt> API-kutsuissasi. Esim:"
+
+#: admin/tools.php:114
+msgid "Usage of a time limited signature token"
+msgstr "Näin käytät rajoitetun ajan toimivaa allekirjoitus-valtuutusta"
+
+#: admin/tools.php:117 admin/tools.php:119
+msgid "actual value:"
+msgstr "todellinen arvo:"
+
+#: admin/tools.php:122
+msgid ""
+"Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
+"requests. Example:"
+msgstr ""
+"Käytä nyt parametrejä <tt>signature</tt> ja <tt>timestamp</tt> API-"
+"kutsuissasi. Esim:"
+
+#: admin/tools.php:124
+msgid "Actual values:"
+msgstr "Todelliset arvot:"
+
+#: admin/tools.php:126
+#, php-format
+msgid "This URL would be valid for only %s seconds"
+msgstr "Tämä URL tulee toimimaan ainoastaan seuraavien  %s sekunnin ajan"
+
+#: admin/tools.php:130
+#, php-format
+msgid "See the <a href=\"%s\">API documentation</a> for more"
+msgstr "Lue <a href=\"%s\">API dokumentaatio</a> saadaksesi lisätietoja"
+
+#: admin/upgrade.php:9 admin/upgrade.php:13
+msgid "Upgrade YOURLS"
+msgstr "Päivitä YOURLS"
+
+#: admin/upgrade.php:18
+#, php-format
+msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
+msgstr "Päivitystä ei tarvita. Menehän <a href=\"%s\">takaisin</a>!"
+
+#: admin/upgrade.php:51
+msgid "Your current installation needs to be upgraded."
+msgstr "Nykyinen asennus täytyy päivittää."
+
+#: admin/upgrade.php:52
+msgid ""
+"Please, pretty please, it is recommended that you <strong>backup</strong> "
+"your database<br/>(you should do this regularly anyway)"
+msgstr ""
+"Tässä vaiheessa olisi tosi suositeltavaa tehdä <strong>varmistukset</strong> "
+"tietokannastasi<br/>(ne kannattaa toki tehdä muutenkin säännöllisesti)"
+
+#: admin/upgrade.php:53
+msgid ""
+"Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
+"em> happen, right? ;)"
+msgstr ""
+"Mitään kamalaa <em>ei pitäisi</em> tapahtua, mutta se ei tarkoita, etteikö "
+"silti <em>voisi</em> tapahtua, eiks juu? ;)"
+
+#: admin/upgrade.php:54
+msgid ""
+"On every step, if <span class='error'>something goes wrong</span>, you'll "
+"see a message and hopefully a way to fix."
+msgstr ""
+"Mikäli missä tahansa vaiheessa <span class='error'>jotain menee pieleen</"
+"span>, näet siitä viestin sekä toivottavasti ohjeen kuina virhe korjataan."
+
+#: admin/upgrade.php:55
+msgid ""
+"If everything goes too fast and you cannot read, <span class=\"success"
+"\">good for you</span>, let it go :)"
+msgstr ""
+"Mikäli kaikki tapahtuu liian nopeasti, etkä ehdi lukea, <span class=\"success"
+"\">hyvä sinulle</span>, anna palaa! :)"
+
+#: admin/upgrade.php:56
+msgid "Once you are ready, press \"Upgrade\" !"
+msgstr "Kun olet valmis, paina \"Päivitä\" !"
+
+#: admin/upgrade.php:65
+msgid "Upgrade"
+msgstr "Päivitä"
+
+#: admin/upgrade.php:77
+msgid "Your installation is now up to date ! "
+msgstr "Ohjelmistoasennuksesi on nyt ajan tasalla "
+
+#: admin/upgrade.php:78
+#, php-format
+msgid "Go back to <a href=\"%s\">the admin interface</a>"
+msgstr "Mene takaisin <a href=\"%s\">hallintaliittymään</a>"
+
+#: includes/auth.php:53
+#, php-format
+msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
+msgstr "Salasanoja ei voitu automaattisesti salakirjoittaa. Virhe oli \"%s\"."
+
+#: includes/auth.php:55
+#, php-format
+msgid "<a href=\"%s\">Get help</a>."
+msgstr "<a href=\"%s\">Apua</a>."
+
+#: includes/auth.php:57
+#, php-format
+msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
+msgstr ""
+"<a href=\"%s\">Klikkaa tästä</a> piilottaaksesi tämä viesti seuraavan viikon "
+"ajaksi."
+
+#: includes/class-mysql.php:39
+msgid ""
+"YOURLS requires the mysql, mysqli or pdo_mysql PHP extension. No extension "
+"found. Check your server config, or contact your host."
+msgstr ""
+"YOURLS vaatii mysql:n, mysqli:n tai pdo_mysql:n PHP laajennuksen. "
+"Laajennusta ei löytynyt. Tarkista palvelinmääritykset tai ota yhteyttä "
+"palveluntarjoajaasi."
+
+#: includes/class-mysql.php:40 includes/functions-install.php:16
+#: includes/functions.php:438 includes/functions.php:450
+msgid "Fatal error"
+msgstr "Kohtalokas virhe (Fatal Error)"
+
+#: includes/functions-auth.php:26
+msgid "Logged out successfully"
+msgstr "Olet kirjautunut ulos"
+
+#: includes/functions-auth.php:102
+msgid "Invalid username or password"
+msgstr "Väärä käyttäjänimi tai salasana"
+
+#: includes/functions-auth.php:104
+msgid "Please log in"
+msgstr "Ole hyvä, kirjaudu sisään"
+
+#: includes/functions-html.php:142
+#, php-format
+msgid "1 query"
+msgid_plural "%s queries"
+msgstr[0] "1 kysely"
+msgstr[1] "%s kyselyä"
+
+#: includes/functions-html.php:147
+#, php-format
+msgid "Powered by %s"
+msgstr "Sinulle tarjoaa %s"
+
+#: includes/functions-html.php:175
+msgid "Enter the URL"
+msgstr "Syötä URL"
+
+#: includes/functions-html.php:176
+msgid "Optional "
+msgstr "Valinnainen "
+
+#: includes/functions-html.php:176
+msgid "Custom short URL"
+msgstr "Omavalintainen lyhytURL"
+
+#: includes/functions-html.php:178
+msgid "Shorten The URL"
+msgstr "Lyhennä URL"
+
+#: includes/functions-html.php:212 includes/functions-html.php:224
+#: includes/functions-html.php:629
+msgid "IP"
+msgstr "IP"
+
+#. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
+#: includes/functions-html.php:216
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "Etsi %1$s / %2$s:sta"
+
+#: includes/functions-html.php:230
+msgid "Ascending"
+msgstr "Nouseva"
+
+#: includes/functions-html.php:231
+msgid "Descending"
+msgstr "Laskeva"
+
+#. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
+#: includes/functions-html.php:235
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "Laita järjestykseen %1$s %2$s"
+
+#. //translators: "Show <text field> rows"
+#: includes/functions-html.php:240
+#, php-format
+msgid "Show %s rows"
+msgstr "Näytä %s rivissä"
+
+#: includes/functions-html.php:245
+msgid "more"
+msgstr "enemmän"
+
+#: includes/functions-html.php:246
+msgid "less"
+msgstr "vähemmän"
+
+#. //translators: "Show links with <more/less> than <text field> clicks"
+#: includes/functions-html.php:251
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "Näytä linkit, joissa on %1$s kuin %2$s klikkausta"
+
+#: includes/functions-html.php:256
+msgid "before"
+msgstr "ennen"
+
+#: includes/functions-html.php:257
+msgid "after"
+msgstr "jälkeen"
+
+#: includes/functions-html.php:258
+msgid "between"
+msgstr "välissä"
+
+#. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
+#: includes/functions-html.php:265
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "Näytä linkit, jotka on luotu %1$s %2$s %3$s %4$s"
+
+#: includes/functions-html.php:269
+msgid "Search"
+msgstr "Etsi"
+
+#: includes/functions-html.php:271
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: includes/functions-html.php:291
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "1 sivu"
+msgstr[1] "%s sivua"
+
+#: includes/functions-html.php:299 includes/functions-html.php:313
+msgid "Go to First Page"
+msgstr "Mene ensimmäiselle sivulle"
+
+#: includes/functions-html.php:299
+msgid "&laquo; First"
+msgstr "&laquo; Ensimmäinen"
+
+#: includes/functions-html.php:313
+msgid "Last &raquo;"
+msgstr "Viimeinen &raquo;"
+
+#: includes/functions-html.php:357
+msgid "Your short link"
+msgstr "Lyhytlinkkisi"
+
+#: includes/functions-html.php:388
+msgid "Long link"
+msgstr "Pitkä linkki"
+
+#: includes/functions-html.php:390 includes/functions-html.php:499
+#: includes/functions-html.php:500
+msgid "Stats"
+msgstr "Tilastot"
+
+#: includes/functions-html.php:404
+msgid "Share with"
+msgstr "Jaa"
+
+#: includes/functions-html.php:405
+msgid "Tweet this!"
+msgstr "Tweettaa tämä!"
+
+#: includes/functions-html.php:406
+msgid "Share on Facebook"
+msgstr "Jaa Facebookissa"
+
+#: includes/functions-html.php:407
+msgid "Share on Friendfeed"
+msgstr "Jaa Friendfeedissä"
+
+#: includes/functions-html.php:464
+msgid "Save"
+msgstr "Tallenna"
+
+#: includes/functions-html.php:464
+msgid "Save new values"
+msgstr "Tallenna uudet arvot"
+
+#: includes/functions-html.php:464
+msgid "Cancel"
+msgstr "Keskeytä"
+
+#: includes/functions-html.php:464
+msgid "Cancel editing"
+msgstr "Keskeytä muokkaus"
+
+#: includes/functions-html.php:466
+msgid "Error, URL not found"
+msgstr "Virhe, URL:ia ei löytynyt"
+
+#: includes/functions-html.php:512 includes/functions-html.php:513
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: includes/functions-html.php:519 includes/functions-html.php:520
+msgid "Delete"
+msgstr "Poista"
+
+#: includes/functions-html.php:541
+msgid "Not a common link"
+msgstr "Ei yleinen linkki"
+
+#: includes/functions-html.php:627
+msgid "Original URL"
+msgstr "Alkuperäinen URL"
+
+#: includes/functions-html.php:631
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: includes/functions-html.php:697
+msgid "Username"
+msgstr "Käyttäjänimi"
+
+#: includes/functions-html.php:701
+msgid "Password"
+msgstr "Salasana"
+
+#: includes/functions-html.php:705
+msgid "Login"
+msgstr "Kirjaudu"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+#, php-format
+msgid "Hello <strong>%s</strong>"
+msgstr "Hei <strong>%s</strong>"
+
+#: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+#: includes/functions-html.php:727
+msgid "Help"
+msgstr "Apua"
+
+#: includes/functions-html.php:734
+msgid "Go to the admin interface"
+msgstr "Avaa hallintaliittymä"
+
+#: includes/functions-html.php:735
+msgid "Admin interface"
+msgstr "Hallintaliittymä"
+
+#: includes/functions-html.php:741
+msgid "Tools"
+msgstr "Työkalut"
+
+#: includes/functions-html.php:867 includes/functions-html.php:872
+msgid "Today"
+msgstr "Tänään"
+
+#: includes/functions-html.php:868 includes/functions-html.php:873
+msgid "Close"
+msgstr "Sulje"
+
+#: includes/functions-html.php:889
+#, php-format
+msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
+msgstr ""
+"<a href=\"%s\">YOURLS:n versio %s</a> on nyt ladattavissa. Ole hyvä ja "
+"päivitä!"
+
+#: includes/functions-install.php:16 includes/functions.php:438
+msgid "Incorrect DB config, or could not connect to DB"
+msgstr "Virheellinen tietokantamääritys, tai ei voitu yhdistää tietokantaan"
+
+#: includes/functions-install.php:241
+#, php-format
+msgid "Table '%s' created."
+msgstr "Taulukko '%s' luotu."
+
+#: includes/functions-install.php:243
+#, php-format
+msgid "Error creating table '%s'."
+msgstr "Virhe luotaessa taulukkoa '%s'."
+
+#: includes/functions-install.php:249
+msgid "Could not initialize options"
+msgstr "Ei voitu alustaa valintoja"
+
+#: includes/functions-install.php:253
+msgid "Could not insert sample short URLs"
+msgstr "Ei voitu upottaa lyhytURL-näytettä"
+
+#: includes/functions-install.php:257
+msgid "YOURLS tables successfully created."
+msgstr "YOURLS-taulukot luotu onnistuneesti."
+
+#: includes/functions-install.php:259
+msgid "Error creating YOURLS tables."
+msgstr "Virhe luotaessa YOURLS-taulukoita."
+
+#. //translators: weekday
+#: includes/functions-l10n.php:795 includes/functions-l10n.php:805
+#: includes/functions-l10n.php:818
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:796 includes/functions-l10n.php:806
+#: includes/functions-l10n.php:819
+msgid "Monday"
+msgstr "Maanantai"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:797 includes/functions-l10n.php:807
+#: includes/functions-l10n.php:820
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:798 includes/functions-l10n.php:808
+#: includes/functions-l10n.php:821
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:799 includes/functions-l10n.php:809
+#: includes/functions-l10n.php:822
+msgid "Thursday"
+msgstr "Torstai"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:800 includes/functions-l10n.php:810
+#: includes/functions-l10n.php:823
+msgid "Friday"
+msgstr "Perjantai"
+
+#. //translators: weekday
+#: includes/functions-l10n.php:801 includes/functions-l10n.php:811
+#: includes/functions-l10n.php:824
+msgid "Saturday"
+msgstr "Lauantai"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:805
+msgid "S_Sunday_initial"
+msgstr "S"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:806
+msgid "M_Monday_initial"
+msgstr "M"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:807
+msgid "T_Tuesday_initial"
+msgstr "T"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:808
+msgid "W_Wednesday_initial"
+msgstr "K"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:809
+msgid "T_Thursday_initial"
+msgstr "T"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:810
+msgid "F_Friday_initial"
+msgstr "P"
+
+#. //translators: one-letter abbreviation of the weekday
+#: includes/functions-l10n.php:811
+msgid "S_Saturday_initial"
+msgstr "L"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:818
+msgid "Sun"
+msgstr "Sun"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:819
+msgid "Mon"
+msgstr "Maa"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:820
+msgid "Tue"
+msgstr "Tii"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:821
+msgid "Wed"
+msgstr "Kes"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:822
+msgid "Thu"
+msgstr "Tor"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:823
+msgid "Fri"
+msgstr "Per"
+
+#. //translators: three-letter abbreviation of the weekday
+#: includes/functions-l10n.php:824
+msgid "Sat"
+msgstr "Lau"
+
+#. //translators: month name
+#: includes/functions-l10n.php:827 includes/functions-l10n.php:842
+msgid "January"
+msgstr "Tammikuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:828 includes/functions-l10n.php:843
+msgid "February"
+msgstr "Helmikuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:829 includes/functions-l10n.php:844
+msgid "March"
+msgstr "Maaliskuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:830 includes/functions-l10n.php:845
+msgid "April"
+msgstr "Huhtikuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:831 includes/functions-l10n.php:846
+msgid "May"
+msgstr "Toukokuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:832 includes/functions-l10n.php:847
+msgid "June"
+msgstr "Kesäkuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:833 includes/functions-l10n.php:848
+msgid "July"
+msgstr "Heinäkuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:834 includes/functions-l10n.php:849
+msgid "August"
+msgstr "Elokuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:835 includes/functions-l10n.php:850
+msgid "September"
+msgstr "Syyskuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:836 includes/functions-l10n.php:851
+msgid "October"
+msgstr "Lokakuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:837 includes/functions-l10n.php:852
+msgid "November"
+msgstr "Marraskuu"
+
+#. //translators: month name
+#: includes/functions-l10n.php:838 includes/functions-l10n.php:853
+msgid "December"
+msgstr "Joulukuu"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:842
+msgid "Jan_January_abbreviation"
+msgstr "Tam"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:843
+msgid "Feb_February_abbreviation"
+msgstr "Hel"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:844
+msgid "Mar_March_abbreviation"
+msgstr "Maa"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:845
+msgid "Apr_April_abbreviation"
+msgstr "Huh"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:846
+msgid "May_May_abbreviation"
+msgstr "Tou"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:847
+msgid "Jun_June_abbreviation"
+msgstr "Kes"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:848
+msgid "Jul_July_abbreviation"
+msgstr "Hei"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:849
+msgid "Aug_August_abbreviation"
+msgstr "Elo"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:850
+msgid "Sep_September_abbreviation"
+msgstr "Syy"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:851
+msgid "Oct_October_abbreviation"
+msgstr "Lok"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:852
+msgid "Nov_November_abbreviation"
+msgstr "Mar"
+
+#. //translators: three-letter abbreviation of the month
+#: includes/functions-l10n.php:853
+msgid "Dec_December_abbreviation"
+msgstr "Jou"
+
+#: includes/functions-l10n.php:860
+msgid "am"
+msgstr "am"
+
+#: includes/functions-l10n.php:861
+msgid "pm"
+msgstr "pm"
+
+#: includes/functions-l10n.php:862
+msgid "AM"
+msgstr "AM"
+
+#: includes/functions-l10n.php:863
+msgid "PM"
+msgstr "PM"
+
+#. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: includes/functions-l10n.php:869
+msgid "number_format_thousands_sep"
+msgstr ""
+
+#. //translators: $dec_point argument for http://php.net/number_format, default is .
+#: includes/functions-l10n.php:873
+msgid "number_format_decimal_point"
+msgstr ""
+
+#. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
+#: includes/functions-l10n.php:880
+msgid "ltr"
+msgstr ""
+
+#: includes/functions-plugins.php:387
+msgid "Could not find and deactivated plugin :"
+msgid_plural "Could not find and deactivated plugins :"
+msgstr[0] "Ei löydetty ja laajennus kytkettiin pois käytöstä :"
+msgstr[1] "Ei löydetty ja laajennukset kytkettiin pois käytöstä:"
+
+#: includes/functions-plugins.php:425
+msgid "Not a valid plugin file"
+msgstr "Laajennuksessa epäkelpo tiedosto"
+
+#: includes/functions-plugins.php:430
+msgid "Plugin already activated"
+msgstr "Laajennus on jo aktivoitu"
+
+#: includes/functions-plugins.php:438
+#, php-format
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
+msgstr ""
+"Laajennus tuottaa odottamattoman syötteen. Virhe oli: <br/><pre>%s</pre>"
+
+#: includes/functions-plugins.php:461
+msgid "Plugin not active"
+msgstr "Laajennusta ei ole aktivoitu"
+
+#: includes/functions-plugins.php:541
+msgid ""
+"This page does not exist. Maybe a plugin you thought was activated is "
+"inactive?"
+msgstr ""
+"Sivua ei löydy. Tarkista onko ajattelemasi laajennus varmasti aktivoitu?"
+
+#: includes/functions-plugins.php:541
+msgid "Invalid link"
+msgstr "Virheellinen linkki"
+
+#: includes/functions.php:201
+msgid "Missing or malformed URL"
+msgstr "URL puuttuu tai on väärin muodostettu"
+
+#: includes/functions.php:215
+msgid "URL is a short URL"
+msgstr "URL on lyhytURL"
+
+#: includes/functions.php:247
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr "LyhytURL %s löytyy jo tietokannasta tai se on varattu käyttöön"
+
+#. //translators: eg "http://someurl/ added to DB"
+#: includes/functions.php:253 includes/functions.php:275
+#, php-format
+msgid "%s added to database"
+msgstr "%s lisätty tietokantaan"
+
+#: includes/functions.php:283
+msgid "Error saving url to database"
+msgstr "Virhe tallennettaessa URL:ää tietokantaan"
+
+#. //translators: eg "http://someurl/ already exists"
+#: includes/functions.php:300
+#, php-format
+msgid "%s already exists in database"
+msgstr "%s löytyy jo tietokannasta"
+
+#: includes/functions.php:355
+msgid "Link updated in database"
+msgstr "Linkki päivitetty tietokantaan"
+
+#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
+#: includes/functions.php:358
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr "Virhe päivitettäessä %s (LyhytURL: %s)"
+
+#: includes/functions.php:364
+msgid "URL or keyword already exists in database"
+msgstr "URL tai avainsana löytyy jo tietokannasta"
+
+#: includes/functions.php:761
+#, php-format
+msgid ""
+"if you are not redirected after 10 seconds, please <a href=\"%s\">click "
+"here</a>"
+msgstr ""
+"jos et ohjaudu uuteen osoitteeseen 10 sekunnissa, <a href=\"%s\">klikkaa "
+"tästä</a>"
+
+#: includes/functions.php:769
+#, php-format
+msgid "Please <a href=\"%s\">click here</a>"
+msgstr "Ole hyvä ja <a href=\"%s\">klikkaa tästä</a>"
+
+#: includes/functions.php:1394
+msgid "Too many URLs added too fast. Slow down please."
+msgstr "Liian monta URL:ia lisätty liian nopeasti. Otapa rauhallisemmin."
+
+#: includes/functions.php:1394
+msgid "Forbidden"
+msgstr "Kielletty"
+
+#: includes/functions.php:1673
+msgid "Unauthorized action or expired link"
+msgstr "Luvaton toiminto tai vanhentunut linkki"
+
+#: includes/functions.php:1673
+msgid "Error"
+msgstr "Virhe"
+
+#: includes/functions.php:2064
+msgid "Service temporarily unavailable"
+msgstr "Palvelu ei ole väliaikaisesti saatavilla"
+
+#: includes/functions.php:2065
+msgid "Our service is currently undergoing scheduled maintenance."
+msgstr "Palveluumme tehdään parhaillaan ajoitettuja ylläpitotoimia."
+
+#: includes/functions.php:2066
+msgid ""
+"Things should not last very long, thank you for your patience and please "
+"excuse the inconvenience"
+msgstr ""
+"Tämän ei pitäisi viedä kovin kauan. Kiitos kärsivällisyydestäsi ja "
+"pahoittelemme haittaa"
+
+#: includes/functions.php:2186
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr ""
+"%1$s on <strong>epäsopiva</strong> versiosta %2$s lähtien! Käytä mieluummin "
+"muotoa %3$s ."
+
+#: includes/functions.php:2188
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
+"available."
+msgstr ""
+"%1$s on <strong>epäsopiva</strong>versiosta %2$s lähtien, eikä korvaavaa "
+"muotoa ole tarjolla."
+
+#: user/plugins/sample-toolbar/plugin.php:62
+msgid "day"
+msgid_plural "days"
+msgstr[0] "päivä"
+msgstr[1] "päivää"
+
+#: user/plugins/sample-toolbar/plugin.php:67
+msgid "view"
+msgid_plural "views"
+msgstr[0] "näkymä"
+msgstr[1] "näkymät"
